@@ -125,6 +125,11 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+footer a:hover {
+  opacity: 1;
 }
 section {
   max-width: 100%;
