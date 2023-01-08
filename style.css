@@ -45,6 +45,10 @@ header a {
   padding: 16px 32px;
   display: inline-block;
   margin-top: 32px;
+  transition: all 0.3s ease-in-out;
+}
+header a:hover {
+  background: rgb(204, 202, 202);
 }
 main {
   background-color: white;
@@ -162,8 +166,11 @@ section.section2 {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
-
+.btn:hover {
+  background-color: #311e7e;
+}
 .grid {
   display: grid;
 
