@@ -99,7 +99,7 @@ footer {
       rgba(39, 32, 68, 0.9)
     ),
     url("images/atlanta-footer.jpeg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 footer h3 {
@@ -131,10 +131,14 @@ footer a {
 footer a:hover {
   opacity: 1;
 }
+
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+footer section {
+  padding: 50px 100px;
 }
 section.section2 {
   background: #f8f8f8;
@@ -217,6 +221,13 @@ section.section2 {
   }
   section {
     padding: 30px;
+  }
+  footer section {
+    padding: 30px;
+  }
+  footer {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   blockquote {
     margin: 0 auto;
